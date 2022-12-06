@@ -1,6 +1,6 @@
 ## This Project is from ineuron for Devops. 
 ## I am successfully deployed the code in this code no api key was configured so i generate API AUTH key for firebase run app and create Dockerfile.
-## from that docker image on my docker hub dashboard i puull image and deploy the application on EKS using Terraform.
+## from that docker image on my docker hub dashboard i pull image and deploy the application on EKS using Terraform.
 
 
 Original Code From Ineuron :- https://github.com/DARK-art108/Reddit-Clone
