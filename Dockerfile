@@ -1,9 +1,9 @@
-FROM node:14 AS Production
-ENV NODE_ENV=Production
-WORKDIR /app
+FROM node:19-alpine3.15
 
-COPY . /app
+WORKDIR /reddit-clone
+
+COPY . /reddit-clone
 RUN npm install 
-RUN npm run build
+
 EXPOSE 3000
-CMD node index.tsx
+CMD ["npm","run","dev"]
