@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: reddit-clone
+spec:
+  containers:
+  - name: reddit-clone
+    image: rishikeshops/reddit-clone:v3
+    ports:
+    - containerPort: 3000
+
