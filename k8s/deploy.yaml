@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: reddit-clone
-        image: rishikeshops/reddit-clone:v3
+        image: trainwithshubham/redit-app:latest
         ports:
         - containerPort: 3000  
