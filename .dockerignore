@@ -1,0 +1,6 @@
+k8s/
+Terraform/
+logs/
+.git
+*.md
+.cache

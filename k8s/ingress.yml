@@ -1,0 +1,17 @@
+ apiVersion: extensions/v1beta1
+ kind: Ingress
+ metadata:
+   name: ingress
+   rules:
+   - host: hello.rushikesh.me
+     http:
+       paths:
+       - backend:
+           serviceName: reddit-clone-service
+           servicePort: 80
+   - host: web.rushikesh.me
+     http:
+       paths:
+       - backend:
+           serviceName: reddit-clone-service
+           servicePort: 80
